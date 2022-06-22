@@ -44,7 +44,7 @@ function entrada() {
         if(requiereVisa === 'no' && buscarId.id !== 7) {
             descripcionPais.innerHTML = `<p class="p-justify">Si deseas viajar a Chile con pasaporte de ${buscarId.pais} <strong>no requerirás</strong> de autorización previa o visa para ingresar al país.</p>
                                         <h3>TURISMO</h3>
-                                        <p class="p-justify">Si viajas a Chile con fines de recreo o turismo <em>(sin ánimo de residencia)</em> se te otorgará un permiso de permanencia transitoria al momento de ingresar al país. Dicho permiso tendrá una vigencia de hasta ${buscarId.estadiaSimple} días, y su costo será de US$${buscarId.costoSimple}.</p>
+                                        <p class="p-justify">Si viajas a Chile con fines de recreo o turismo <em>(sin ánimo de residencia)</em> se te otorgará un permiso de permanencia transitoria al momento de ingresar al país.</p>
                                         <ul>
                                         <li>Vigencia del permiso de permanencia transitoria simple (días): ${buscarId.estadiaSimple}.</li>
                                         <li>Costo del permiso de permanencia transitoria simple (US$): ${buscarId.costoSimple}.</li>
@@ -110,7 +110,7 @@ function entrada() {
         else if(pais == 7) {
             descripcionPais.innerHTML = `<p class="p-justify"><strong>No requerirás</strong> de permiso previo o visa para ingresar a Chile. A Aruba, Bonaire, Curazao, Saba, San Eustaquio y San Martín se le aplican las mismas condiciones que a nacionales de Países Bajos.</p>
                                          <h3>TURISMO</h3>
-                                         <p class="p-justify">Si viajas a Chile con fines de recreo o turismo <em>(sin ánimo de residencia)</em> se te otorgará un permiso de permanencia transitoria al momento de ingresar al país. Dicho permiso tendrá una vigencia de hasta ${buscarId.estadiaSimple} días, y su costo será de US$${buscarId.costoSimple}.</p>
+                                         <p class="p-justify">Si viajas a Chile con fines de recreo o turismo <em>(sin ánimo de residencia)</em> se te otorgará un permiso de permanencia transitoria al momento de ingresar al país.</p>
                                          <ul>
                                             <li><a href="https://serviciosconsulares.cl/tramites/visa-de-permanencia-transitoria" target="_blank">Requisitos para solicitar un Permiso de Permanencia Transitoria</a>.</li>
                                             <li>Vigencia del permiso de permanencia transitoria simple (días): ${buscarId.estadiaSimple}.</li>
