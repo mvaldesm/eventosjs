@@ -1,9 +1,6 @@
-/*  paises -> Array de objetos con los datos de cada país - 12 por ahora  
-    estadiaSimple = vigencia del permiso de permanencia transitoria simple
-    costoSimple = costo del permiso de permanencia transitoria simple
-    estadiaMultiple = vigencia del permiso de permanencia transitoria múltiple
-    costoMultiple = vigencia del permiso de permanencia transitoria múltiple
-    costoResidencia = costo de un permiso de residencia temporal en Chile según nacionalidad
+/*  paises: 
+    Array de objetos con la información de cada país (201) y si requiere o no 
+    permiso para ingresar a Chile
 */
 
 const paises = [
